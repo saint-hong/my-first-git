@@ -1,5 +1,7 @@
-for i in range(1, 31):
+for i in range(1,51):
     if i % 3 == 0:
-        print("{}".format(i))
+        print("fast")
+    elif i % 5 == 0:
+        print("campus")
     else:
-        print("{} in hello, world. vim!!".format(i))
+        print("{}".format(i))
